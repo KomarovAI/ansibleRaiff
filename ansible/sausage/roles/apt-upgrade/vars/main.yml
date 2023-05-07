@@ -1,0 +1,5 @@
+---
+backend_service_user: "jarservice"
+backend_report_directory: "/opt/log"
+backend_lib_directory: "/opt/sausage-store/backend"
+backend_maven_version: "1.0.214567"

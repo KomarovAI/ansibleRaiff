@@ -1,0 +1,15 @@
+---
+- name: Test Connection to my servers
+  host: all
+  become: yes
+
+  tasks:
+    - name: Ping my servers
+      ping:
+- name: Test Connection to my servers
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Ping my servers
+      ping:

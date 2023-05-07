@@ -1,0 +1,9 @@
+---
+- name: main play
+  hosts: all
+  remote_user: student
+  become: yes
+  become_method: sudo
+
+  roles:
+    - apt-upgrade
